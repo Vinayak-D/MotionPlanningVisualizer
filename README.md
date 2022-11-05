@@ -17,7 +17,7 @@ In this application, you can visualize three common algorithms for path planning
 **1: Rapidly Exploring Random Trees (RRT):** This is a tree based algorithm which does not find the shortest path, however it is popular in robotics due to it's ability to rapidly search spaces by random sampling, thus making it exponentially faster than A* for high resolution grids.
 
 
-**1: Informed Rapidly Exploring Random Trees Star (RRT*):** The iRRT* improves upon the RRT and RRT* algorithms. Firstly, at each step a minimum cost path is found and then the tree is rewired. The basic premise of RRT* is to aim to achieve a shortest path by optimization at each time step. Informed RRT* samples within an ellipse once an initial path is found.
+**1: Informed Rapidly Exploring Random Trees Star (RRT-Star):** The iRRT* improves upon the RRT and RRT* algorithms. Firstly, at each step a minimum cost path is found and then the tree is rewired. The basic premise of RRT* is to aim to achieve a shortest path by optimization at each time step. Informed RRT* samples within an ellipse once an initial path is found.
 
 
 A common distinction to make is that A* is search based while RRT/RRT* is sampling based. With RRT/RRT* you do not need to search every single grid element, however with A* you explore a significantly greater number of points.
