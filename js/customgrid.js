@@ -24,7 +24,7 @@ var homeButton = document.getElementById("returnHome")
 
 homeButton.addEventListener("click", goHome)
 function goHome() {
-    location.href = "index.html";
+    location.href = "https://vinayak-d.github.io/MotionPlanningVisualizer";
 }
 
 //initialize start, goal locations
