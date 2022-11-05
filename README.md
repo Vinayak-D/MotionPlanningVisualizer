@@ -1,11 +1,11 @@
-# MotionPlanningVisualizer
+# Motion Planning Algorithm Visualizer
 Visualize the well known A*, RRT, and RRT* path planning algorithms
 
 
 PROJECT LINK!: https://vinayak-d.github.io/MotionPlanningVisualizer
 
 
-Welcome to Motion Planning Algorithm Visualizer, please click the link above to try it yourself!
+Welcome to Motion Planning Algorithm Visualizer, please click the link above to try it yourself! Choose Dubai or Las Vegas maps, or define your own grid with obstacles!
 
 
 In this application, you can visualize three common algorithms for path planning.
