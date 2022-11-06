@@ -7,6 +7,8 @@ PROJECT LINK!: https://vinayak-d.github.io/MotionPlanningVisualizer
 
 Welcome to Motion Planning Algorithm Visualizer, please click the link above to try it yourself! Choose Dubai or Las Vegas maps, or define your own grid with obstacles!
 
+Works best on desktop, on mobile the layout might be skewed, however the functionality is identical.
+
 
 In this application, you can visualize three common algorithms for path planning.
 

@@ -43,8 +43,8 @@ function goHome() {
 }
 
 //initialize start, goal locations
-var startPos = [-1,-1];
-var goalPos = [-1,-1];
+var startPos = [50,50];
+var goalPos = [100,100];
 var track = 0;
 var track2 = 0;
 
@@ -61,7 +61,13 @@ function startClick(event){
         track++;
         if (track == 1){
             var x = e.clientX - rect.left;
-            var y = e.clientY - rect.top;  
+            if (x <= 0 || x >= width){
+                x = Math.floor(Math.random() * width - 1) + 1;
+            }
+            var y = e.clientY - rect.top;
+            if (y <= 0 || y >= height){
+                y = Math.floor(Math.random() * height - 1) + 1;
+            }  
             ctx.fillStyle = "blue";  
             startPos[0] = Math.round(x);
             startPos[1] = Math.round(y);
@@ -88,7 +94,13 @@ function goalClick(event){
         track2++;
         if (track2 == 1){
             var x = e.clientX - rect.left;
-            var y = e.clientY - rect.top; 
+            if (x <= 0 || x >= width){
+                x = Math.floor(Math.random() * width - 1) + 1;
+            }
+            var y = e.clientY - rect.top;
+            if (y <= 0 || y >= height){
+                y = Math.floor(Math.random() * height - 1) + 1;
+            }
             goalPos[0] = Math.round(x);
             goalPos[1] = Math.round(y);
             // fill a circle
